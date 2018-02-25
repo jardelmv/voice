@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns   = "http://www.w3.org/ns/widgets"
-    xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.example"
-    versionCode = "10"
-    version     = "1.0.0" >
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="digital.jbs" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>Voice</name>
+	<description>
+		voice rec
+	</description>
 
-<!-- versionCode is optional and Android only -->
+	<author email="jardelmv@gmail.com" href="https://phonegap.com">
+	   PhoneGap Team
+	</author>
 
-  <name>Voice</name>
-
-  <description>
-      voice
-  </description>
-
-<uses-permission android:name="android.permission.RECORD_AUDIO" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<preference name="phonegap-version" value="cli-6.0.0" />
 </widget>
