@@ -1,0 +1,8 @@
+<feature name="Capture">
+    <param name="android-package" value="org.apache.cordova.Capture" />
+</feature>
+
+
+(in app/AndroidManifest.xml)
+<uses-permission android:name="android.permission.RECORD_AUDIO" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
